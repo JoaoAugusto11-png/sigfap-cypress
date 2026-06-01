@@ -1,0 +1,32 @@
+{
+
+  "endereco": {
+    "cep": "79070-900",
+    "bairro": "Universitário",
+    "logradouro": "Avenida Costa e Silva",
+    "estado": "Mato Grosso do Sul",
+    "numero": "1028",
+    "municipio": "Campo Grande",
+    "complemento": "Ledes"
+  },
+  "academico": {
+    "siglaInstituicao": "UFMS",
+    "siglaUnidade": "FACOM",
+    "nivel": "Graduação",
+    "curriculoLattes": "http://lattes.cnpq.br/0000000000000000",
+    "linkedin": "https://linkedin.com/in/neves_joao"
+  },
+    "profissional": {
+    "possuoVinculoInstitucional": true,
+    "tipoVinculo": "Estagiário", 
+    "possuoVinculoEmpregaticio": false,
+    "inicioServico": "01/09/2025",
+    "regimeTrabalho": "Meio período",
+    "funcaoCargo": "Dev Trainee",
+    "inicioFuncaoCargo": "01/09/2025"
+  },
+  "documento": {
+    "tipoDocumento": "Documento de identificação com foto",
+    "nomeArquivo": "documento-identidade.pdf"
+  }
+}
