@@ -32,33 +32,34 @@ describe('Completar Cadastro do Usuário', () => {
 
     cy.contains('button', /salvar/i).click({ force: true });
   });
-
+  
   it('Deve preencher e salvar a sub-seção: Dados Acadêmicos', () => {
-    cy.contains('Dados Acadêmicos').click();
+    cy.wait(1500);
+    cy.contains('Dados acadêmicos').click();
 
     cy.get('input[placeholder="Sigla/Instituição"]').clear({ force: true }).type(`${dados.academico.siglaInstituicao}{enter}`, { force: true });
     cy.get('input[placeholder="Sigla/Unidade"]').clear({ force: true }).type(`${dados.academico.siglaUnidade}{enter}`, { force: true });
     cy.get('input[placeholder="Selecione uma opção"]').clear({ force: true }).type(`${dados.academico.nivel}{enter}`, { force: true });
 
     cy.contains('label', 'Currículo Lattes').parent().find('input').clear().type(dados.academico.curriculoLattes);
-    cy.contains('label', 'Linkedin').parent().find('input').clear().type(dados.academico.linkedin);
+    cy.contains('label', 'LinkedIn').parent().find('input').clear().type(dados.academico.linkedin);
 
     cy.contains('button', /salvar/i).click({ force: true });
   });
 
   it('Deve preencher e salvar a sub-seção: Dados Profissionais', () => {
-    cy.contains('Dados Profissionais').click();
+    cy.contains('Dados profissionais').click();
 
     if (dados.profissional.possuoVinculoInstitucional) {
       cy.contains('Possuo vínculo institucional').parent().find('input[type="checkbox"]').check({ force: true });
     }
 
     cy.get('input[placeholder="Tipo de vínculo"]').clear({ force: true }).type(`${dados.profissional.tipoVinculo}{enter}`, { force: true });
-    cy.get('input[placeholder="Início de Serviço"]').clear({ force: true }).type(dados.profissional.inicioServico, { force: true });
-    cy.get('input[placeholder="Regime de Trabalho"]').clear({ force: true }).type(`${dados.profissional.regimeTrabalho}{enter}`, { force: true });
+    cy.get('input[placeholder="Início de serviço"]').clear({ force: true }).type(dados.profissional.inicioServico, { force: true });
+    cy.get('input[placeholder="Regime de trabalho"]').clear({ force: true }).type(`${dados.profissional.regimeTrabalho}{enter}`, { force: true });
     
     cy.get('input[placeholder="Digite aqui..."]').clear({ force: true }).type(dados.profissional.funcaoCargo, { force: true });
-    cy.get('input[placeholder="Início de Função/Cargo"]').clear({ force: true }).type(dados.profissional.inicioFuncaoCargo, { force: true });
+    cy.get('input[placeholder="Início de função/cargo"]').clear({ force: true }).type(dados.profissional.inicioFuncaoCargo, { force: true });
 
     cy.contains('button', /salvar/i).click({ force: true });
   });
