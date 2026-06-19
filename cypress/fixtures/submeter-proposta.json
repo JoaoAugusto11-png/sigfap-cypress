@@ -1,0 +1,172 @@
+{
+  "edital": {
+    "nome": "Edital 2026-0001 Sig Cypress"
+  },
+  "proposta": {
+    "titulo": "Proposta E2E Cypress - Inovação e Sustentabilidade"
+  },
+  "caracterizacao": {
+    "informacoesIniciais": [
+      {
+      "label": "Título do projeto",
+      "tipo": "text",
+      "valor": "Projeto Automatizado Cypress"
+      },
+      {
+        "label": "Tipo de evento",
+      "tipo": "select",
+      "valor": "Congresso"
+      },
+      {
+        "label": "Estado de execução do evento",
+      "tipo": "select",
+      "valor": "Mato Grosso do Sul"
+      },
+      {
+        "label": "Município de execução do evento",
+      "tipo": "select",
+      "valor": "Campo Grande"
+      },
+    {
+      "label": "Duração do projeto em meses",
+      "tipo": "text",
+      "valor": "12"
+    },
+    {
+      "label": "Instituição executora",
+      "tipo": "select",
+      "valor": "UFMS/Universidade Federal do Mato Grosso do Sul"
+    },
+    {
+      "label": "Unidade executora",
+      "tipo": "select",
+      "valor": "FACOM/Faculdade de Computação"
+    }
+  ],
+  "informacoesComplementares": [
+    {
+      "label": "Grande área",
+      "tipo": "select",
+      "valor": "Ciências Exatas e da Terra"
+    },
+    {
+      "label": "Área",
+      "tipo": "select",
+      "valor": "Ciência da Computação"
+    },
+    {
+      "label": "Sub-área",
+      "tipo": "select",
+      "valor": "Sistemas de Computação"
+    },
+    {
+      "label": "Especialidade",
+      "tipo": "select",
+      "valor": "Arquitetura de Sistemas de Computação"
+    }
+  ],
+  "informacoesComplementaresSub": [
+      {
+        "label": "Pergunta Edital 001/2025 - Cypress Edital Completo",
+        "tipo": "radio",
+        "valor": "Média - Faturamento (ano) de R$ 4.800.000,01 até R$ 300.000.000,00"
+      },
+      {
+        "label": "Pergunta Edital 001/2025 - Cypress Edital Completo",
+        "tipo": "textarea",
+        "valor": "aaaaaaaaaa",
+        "dataCy": "formularioPropostaInformacaoComplementar.pergunta-219"
+      }
+    ],
+    "abrangencia": {
+      "estado": "mato-grosso-do-sul",
+      "municipios": [
+        "aparecida-do-taboado",
+        "campo-grande"
+      ]}
+    },
+  "coordenacao": {
+    "instituicaoExecutora": {
+      "instituicao": "ufms-universidade-federal-do-mat",
+      "unidade": "facom-faculdade-de-computacao"
+    },
+    "areaConhecimento": {
+      "grandeArea": "ciencias-exatas-e-da-terra",
+      "area": "ciencia-da-computacao",
+      "subarea": "sistemas-de-computacao",
+      "especialidade": "arquitetura-de-sistemas-de-compu"
+    },
+    "dadosProfissionais": {
+      "nivelAcademico": "mestrado",
+      "tipoVinculo": "clt",
+      "possuiVinculoEmpregaticio": true,
+      "dataInicio": "Setembro 17, 2025",
+      "regimeTrabalho": "dedicacao-exclusiva"
+    },
+    "endereco": {
+      "cep": "79555-555",
+      "bairro": "Tiradentes",
+      "logradouro": "Rua das Flores",
+      "numero": "123",
+      "estado": "mato-grosso-do-sul",
+      "municipio": "aparecida-do-taboado"
+    }
+  },
+  "apresentacao": {
+    "descricao": {
+      "radio": "#label-radio-formularioPropostaDescritiva.pergunta-221-0",
+      "texto": "bbbbbbbbbbbbbbbbbbbb"
+    },
+    "orcamento": {
+      "campo1": "3",
+      "campo2": "1",
+      "campo3": "2",
+      "campo4": "5",
+      "campo5": "1",
+      "campo6": "6",
+      "campo7": "6",
+      "campo8": "1",
+      "campo9": "2",
+      "campo10": "7",
+      "campo11": "7",
+      "campo12": "8",
+      "campo13": "8",
+      "campo14": "9",
+      "campo15": "9",
+      "campo16": "10",
+      "campo17": "10",
+      "campo18": "1111",
+      "campo19": "11111",
+      "campo20": "3213213",
+      "campo21": "3123132"
+    },
+    "atividade": {
+      "titulo": "Testar E2E no Cypress",
+      "descricao": "teste End to end no cypress",
+      "mesInicio": "3",
+      "duracao": "10-meses",
+      "cargaHoraria": "5-horas"
+    },
+    "financiamento": {
+      "faixa": "faixa-b-r-10-000-01-r-25-000-00"
+    },
+    "bolsas": {
+      "modalidade": "at",
+      "nivel": "ns-r-770-00",
+      "quantidade": "5",
+      "duracao": "6"
+    }
+  },
+  "anexos": {
+     "documentoUsuario": {
+      "categoria": "documento-de-identificacao-com-f",
+      "arquivo": "documento-identidade.pdf"
+    },
+    "documentosProposta": 
+      {
+        "label": "Arquivo da proposta",
+        "tipo": "file",
+        "arquivo": "proposta-cypress.pdf"
+      }
+  }
+}
